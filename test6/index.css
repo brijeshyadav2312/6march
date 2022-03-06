@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(0, 9, 90);
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-search{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.nav-search input{
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: 0px;
+}
+.nav-search > span{
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.realme{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.brand-image{
+    float: left;
+    position: absolute;
+    margin-left: 50px;
+    
+}
+.image-section{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.specs{
+    float: right;
+    margin-top: 30px;
+}
+.feature{
+    width: 800px;
+    height: 500px;
+}
+.brand-name{
+    text-align: center;
+    line-height: 100px;
+    width: 200px;
+    height: 100px;
+    font-size: 1.3rem;
+    background-color: #777;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.brand-name:hover{
+    background-color: rgb(78, 78, 78);
+}
